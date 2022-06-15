@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   padding: 29px;
-  background: rgb(78, 78, 78);
+  background: rgb(87 4 139 / 92%);
   height: 50%;
   width: 50%;
   left: 50%;
@@ -25,7 +25,7 @@ ul li {
   position: relative;
   cursor: pointer;
   padding: 12px 8px 12px 40px;
-  background: lightgrey;
+  background: #d412e1e6;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.15s;
@@ -36,15 +36,17 @@ ul li {
   user-select: none;
 }
 ul li:nth-child(odd) {
-  background: darkgray;
+  background: #d412e1e6;
+
 }
 /*hover*/
 ul li:hover {
-  background: gray;
+  background: #d412e1e6;
+
 }
 ul li.checked {
-  background: #888;
-  color: #fff;
+  background: #ac31df;
+    color: #f9c3f7;
   text-decoration: line-through;
 }
 /*add check mark when clicked*/
@@ -74,8 +76,8 @@ ul li.checked::before {
 }
 
 .header {
-  background-color: rgb(138, 135, 135);
-  color: white;
+  background-color: #3b106a;
+  color: #ed57f7;
   text-align: center;
   padding: 30px 40px;
 }
@@ -88,6 +90,7 @@ ul li.checked::before {
 input {
   margin: 0;
   border: none;
+  background: #1fe51f;
   width: 65%;
   padding: 10px;
   float: left;
@@ -97,8 +100,8 @@ input {
 .addBtn {
   padding: 10px;
   width: 15%;
-  background: rgb(56, 56, 56);
-  color: #fff;
+  background: #146e14;
+  color: #f6bcf7;
   float: left;
   text-align: center;
   font-size: 16px;
@@ -119,6 +122,6 @@ input {
 #printBtn {
   margin-left: 46%;
   margin-top: 5px;
-  background: black;
-  color: aliceblue;
+  background: #b91fc3;
+  color: #75e775;
 }
